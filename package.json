@@ -1,6 +1,6 @@
 {
   "name": "array-to-archy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert an array to object structure representation which can be used to archy.",
   "main": "index.js",
   "engines": {
