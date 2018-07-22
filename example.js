@@ -21,18 +21,14 @@ const _array = [
     6
 ]
 
-const _options = {
-    label: 'X'
-}
-
 console.log(
     JSON.stringify(
-        arrayToArchy(_array, _options)
+        arrayToArchy(_array)
     )
 )
 
 console.log(
     archy(
-        arrayToArchy(_array, _options)
+        arrayToArchy(_array)
     )
 )

@@ -37,7 +37,7 @@ npm install --save-dev array-to-archy
 ## Usage
 
 ```js
-const arrayToArchy = require("array-to-archy");
+const arrayToArchy = require("array-to-archy")
 
 const _array = [
   1,
@@ -47,13 +47,9 @@ const _array = [
   ["foo", "bar"],
   "baz",
   6
-];
+]
 
-const _options = {
-  label: "X"
-};
-
-console.log(JSON.stringify(arrayToArchy(_array, _options)));
+arrayToArchy(_array, 'X')
 ```
 
 ## Output
@@ -98,6 +94,18 @@ console.log(JSON.stringify(arrayToArchy(_array, _options)));
   ]
 }
 ```
+
+## API
+
+### arrayToArchy(data [, label])
+
+Returns a object.
+
+#### label
+
+Type: `string`<br>
+Default: `--`
+
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 

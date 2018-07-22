@@ -15,16 +15,14 @@ const arr = [
     6
 ]
 
-const _options = {
-    label: 'X'
-}
+const _label = 'X'
 
 test('arrayToArchy', () => {
     expect(typeof arrayToArchy(arr)).toBe('object')
 })
 
 test('arrayToArchy with option', () => {
-    expect(typeof arrayToArchy(arr, _options)).toBe('object')
+    expect(typeof arrayToArchy(arr, _label)).toBe('object')
 })
 
 

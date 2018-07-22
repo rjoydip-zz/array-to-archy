@@ -1,16 +1,14 @@
 'use strict'
 
-const arrayToArchy = (arr, options) => {
-    const _options = options || {
-        label: '--'
-    }
+const arrayToArchy = (arr, label) => {
+    const _label = label || '--'
 
     if(!Array.isArray(arr)) return 'Data is not type array'
 
     return {
-        label: _options.label,
+        label: _label,
         nodes: arr.map(
-            (item) => Array.isArray(item) ? arrayToArchy(item, _options) : item.toString()
+            (item) => Array.isArray(item) ? arrayToArchy(item, _label) : item.toString()
         )
     }
 }
