@@ -1,0 +1,47 @@
+{
+  "name": "array-to-archy",
+  "version": "0.1.0",
+  "description": "Convert an array to object structure representation which can be used to archy.",
+  "main": "dist/index.js",
+  "engines": {
+    "node": "> 4",
+    "npm": "> 3"
+  },
+  "scripts": {
+    "add-contributor": "kcd-scripts contributors add",
+    "build": "kcd-scripts build",
+    "lint": "kcd-scripts lint",
+    "test": "kcd-scripts test",
+    "test:update": "npm test -- --updateSnapshot --coverage",
+    "validate": "kcd-scripts validate",
+    "setup": "npm install && npm run validate -s",
+    "precommit": "kcd-scripts precommit"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "Joydip Roy <joydipand@gmail.com> (https://github.com/rjoydip)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "archy": "^1.0.0",
+    "kcd-scripts": "^0.36.1"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/kcd-scripts/eslint.js"
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "coverage",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjoydip/array-to-archy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rjoydip/array-to-archy/issues"
+  },
+  "homepage": "https://github.com/rjoydip/array-to-archy#readme"
+}
