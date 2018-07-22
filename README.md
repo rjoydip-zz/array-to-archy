@@ -1,7 +1,7 @@
 <div align="center">
 
   <h1>ArrayToArchy</h1>
-  
+
   <p>
     Convert an array to object structure representation which can be used to archy.
   </p>
@@ -21,7 +21,7 @@
 - [Usage](#usage)
 - [Examples](#examples)
 - [Output](#output)
-- [LICENSE](#license)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
