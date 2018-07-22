@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>ArrayToArchy</h1>
+  <h1>Array To Archy</h1>
 
   <p>
     Convert an array to object structure representation which can be used to archy.
