@@ -31,8 +31,6 @@ console.log(
     )
 )
 
-console.log('\n****************\n')
-
 console.log(
     archy(
         arrayToArchy(_array, _options)
